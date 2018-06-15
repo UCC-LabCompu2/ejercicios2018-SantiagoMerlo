@@ -19,6 +19,13 @@ function evaluarValor(valor, id_elemento) {
     }
 
 }
+/*
+ * mostrar ocultar div
+ * @method Nombre de la función
+ * @param Parámetro A
+ * @param Parámetro B
+ * @return Valor que retorna
+ */
 
 function mostrar(opcion) {
  if (opcion= 'mostrarDiv') {
@@ -46,6 +53,13 @@ function grados_gradianes(nombre_unidad, valor_unidad) {
     document.getElementsByTagName("imput")[1].value = radianes;
 
 }
+/*
+ * Transforma las unidades
+ * @method convertirUnidades
+ * @param nombre unidad
+ * @param valor unidad
+ * @return Valor que retorna
+ */
 
 function convertirUnidades(nombre_unidad , valor_unidad) {
     var metro, pies, pulgada, yarda;
